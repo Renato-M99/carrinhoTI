@@ -1,7 +1,7 @@
-/*{
+*{
     margin: 0;
     padding: 0;
-}*/
+}
 
 body{
     background-image: linear-gradient(#0B2740,#164773);
@@ -45,13 +45,15 @@ body{
 .cartWindow {
     margin-top: 10%;
     text-align: center;
-    margin-bottom: 13%;
+    margin-bottom: 6%;
     background-color: #66B8D9;
     margin-left: 10rem;
     margin-right: 10rem;
     height: 80vh;
     align-items: center;
     border-radius: 1.5rem;
+    padding-bottom: 1%;
+    padding-top: 2%;
 }
 
 .flex {
@@ -59,16 +61,12 @@ body{
     justify-content: space-around;
 }
 
-
-
 .btn {
     display: flex;
     margin-top: 50px;
     justify-content: space-evenly;
     margin-left: 50px;
     margin-right: 50px;
-
-
 }
 
 .sub {
@@ -84,4 +82,15 @@ select {
 input {
     width: 55%;
     height: 5vh;
+}
+
+.sub {
+    background-color: #2474A6;
+    border: none;
+    border-radius: 10px;
+}
+
+h2 {
+    font-family: "Nunito Sans", sans-serif;
+    padding: 8px;
 }
