@@ -13,25 +13,27 @@
     <section class="cartWindow">
         <div class="addProduct">
             <h2>Produtos</h2>
-            <select name="" id="" class="products">
-                <option value="0">Teclado Genérico (Preto) - R$ 29,90</option>
-                <option value="1">Teclado Logitech (Preto) - R$ 69,90</option>
-                <option value="2">Teclado Microsoft (Preto) - R$ 129,90</option>
-                <option value="3">Mouse Genérico (Preto) - R$ 19,90</option>
-                <option value="4">Mouse Microsoft (Preto) - R$ 69,90</option>
-                <option value="5">MousePad Genérico - R$ 9,90</option>
+            <select name="products" id="products" class="products">
+                <option value="0">Teclado Genérico (Preto) - R$ <span class="price">29.90</span></option>
+                <option value="1">Teclado Logitech (Preto) - R$ <span class="price">69.90</span></option>
+                <option value="2">Teclado Microsoft (Preto) - R$ <span class="price">129.90</span> </option>
+                <option value="3">Mouse Genérico (Preto) - R$ <span class="price">19.90</span></option>
+                <option value="4">Mouse Microsoft (Preto) - R$ <span class="price">69.90</span></option>
+                <option value="5">MousePad Genérico - R$ <span class="price">9.90</span></option>
             </select>
             <h2>Quantidade</h2>
-            <input type="text" name="qtd" id="qtd" class="qtd" placeholder="digite a quantidade">
+            <input type="text" name="qtd" id="qtd" class="qtd" placeholder="digite a quantidade" />
             <button class="addBtn">Adicionar</button>
             <button class="clearBtn">Limpar</button>
         </div>
         <div class="showProduct">
-            <h3>Produtos no carrinho</h3>
-            <ul class ="listProduct">
+            <h2>Produtos no carrinho:</h2>
+            <ul>
 
             </ul>
+            <h3>Total: </h3>
         </div>
+        
     </section>
 
 
