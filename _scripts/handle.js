@@ -68,7 +68,7 @@ function clearBtn() {
         addedProducts.pop();
         document.querySelector(".qtd").value = '';
         document.querySelector("ul").innerHTML = '';
-        
+        document.querySelector('h3').innerText = '';
     })
     
 }
