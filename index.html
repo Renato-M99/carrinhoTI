@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,32 +9,36 @@
     <!-- CSS -->
     <link rel="stylesheet" href="./_styles/style.css">
 </head>
+
 <body>
 
     <section class="cartWindow">
-        <div class="addProduct">
-            <h2>Produtos</h2>
-            <select name="products" id="products" class="products">
-                <option value="0">Teclado Genérico (Preto) - R$ <span class="price">29.90</span></option>
-                <option value="1">Teclado Logitech (Preto) - R$ <span class="price">69.90</span></option>
-                <option value="2">Teclado Microsoft (Preto) - R$ <span class="price">129.90</span> </option>
-                <option value="3">Mouse Genérico (Preto) - R$ <span class="price">19.90</span></option>
-                <option value="4">Mouse Microsoft (Preto) - R$ <span class="price">69.90</span></option>
-                <option value="5">MousePad Genérico - R$ <span class="price">9.90</span></option>
-            </select>
-            <h2>Quantidade</h2>
-            <input type="text" name="qtd" id="qtd" class="qtd" placeholder="digite a quantidade" />
-            <button class="addBtn">Adicionar</button>
-            <button class="clearBtn">Limpar</button>
-        </div>
-        <div class="showProduct">
-            <h2>Produtos no carrinho:</h2>
-            <ul>
+        <div class="flex">
+            <div class="addProduct">
+                <h2 class="title">Produtos</h2>
+                <select name="products" id="products" class="products">
+                    <option value="0">Teclado Genérico (Preto) - R$ <span class="price">29.90</span></option>
+                    <option value="1">Teclado Logitech (Preto) - R$ <span class="price">69.90</span></option>
+                    <option value="2">Teclado Microsoft (Preto) - R$ <span class="price">129.90</span> </option>
+                    <option value="3">Mouse Genérico (Preto) - R$ <span class="price">19.90</span></option>
+                    <option value="4">Mouse Microsoft (Preto) - R$ <span class="price">69.90</span></option>
+                    <option value="5">MousePad Genérico - R$ <span class="price">9.90</span></option>
+                </select>
+                <h2>Quantidade</h2>
+                <input type="text" name="qtd" id="qtd" class="qtd" placeholder="digite a quantidade" />
+                <div class="btn">
+                    <button class="addBtn sub">Adicionar</button>
+                    <button class="clearBtn sub">Limpar</button>
+                </div>
+            </div>
+            <div class="showProduct">
+                <h2 class="title">Produtos no carrinho:</h2>
+                <ul>
 
-            </ul>
-            <h3>Total: </h3>
+                </ul>
+                <h3>Total: </h3>
+            </div>
         </div>
-        
     </section>
 
 
@@ -41,10 +46,5 @@
     <!-- JavaScript -->
     <script src="./_scripts/handle.js"></script>
 </body>
+
 </html>
-<!-- Teclado Genérico (Preto) - R$ 29,90
-Teclado Logitech (Preto) - R$ 69,90T
-eclado Microsoft (Preto) - R$ 129,90
-Mouse Genérico (Preto) - R$ 19,90
-Mouse Microsoft (Preto) - R$ 69,90
-MousePad Genérico - R$ 9,90 -->

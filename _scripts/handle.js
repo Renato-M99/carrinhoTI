@@ -49,6 +49,7 @@ function addProduct() {
             total += currentPrice;
         
             document.querySelector('h3').innerText = `Total - R$ ${total.toFixed(2)} `;
+           
             
         }
         else {
@@ -69,6 +70,7 @@ function clearBtn() {
         document.querySelector(".qtd").value = '';
         document.querySelector("ul").innerHTML = '';
         document.querySelector('h3').innerText = '';
+        total = 0;
     })
     
 }
